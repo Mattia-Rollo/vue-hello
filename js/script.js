@@ -4,8 +4,8 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'hello worldo!',
-            myClass: 'red',
+            message: 'Ciao ho visto un Pokemon!',
+            myClass: 'red text-center',
             myImage: ''
         }
     },
