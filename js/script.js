@@ -11,7 +11,8 @@ createApp({
     },
     methods: {
         loadImage() {
-            this.myImage = this.myImage === 'eevee.png' ? '' : 'eevee.png'
+            let numeroRandom = 
+            this.myImage = this.myImage === 'https://lorempokemon.fakerapi.it/pokemon/400/'+Math.floor(Math.random()*100) ? '' : 'https://lorempokemon.fakerapi.it/pokemon/400/'+Math.floor(Math.random()*100);
         }
     }
 }).mount('#app')
