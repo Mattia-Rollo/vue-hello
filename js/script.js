@@ -11,8 +11,8 @@ createApp({
     },
     methods: {
         loadImage() {
-            let numeroRandom = 
-            this.myImage = this.myImage === 'https://lorempokemon.fakerapi.it/pokemon/300/'+Math.floor(Math.random()*100) ? '' : 'https://lorempokemon.fakerapi.it/pokemon/300/'+Math.floor(Math.random()*100);
+            let numeroRandom = Math.floor(Math.random()*10) +1;
+            this.myImage = 'https://lorempokemon.fakerapi.it/pokemon/300/'+numeroRandom;
             console.log(this.myImage);
         }
     }
